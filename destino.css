@@ -1,0 +1,135 @@
+.jugador {
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+
+.jugador__fotoJugador {
+  display: flex;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  align-content: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px; }
+
+.jugador--botonCeleste {
+  background-color: #138488; }
+
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+.menu__item {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style: none;
+  margin: 10px;
+  background-color: #17a5ab;
+  padding: 20px;
+  position: sticky;
+  font-size: 30px; }
+
+.menu__submenu {
+  display: block;
+  font-size: 20px;
+  padding: 15px; }
+
+.equipo {
+  display: grid;
+  grid-template-areas: "fotoEntrenador fotoJugador1 fotoJugador2 " "fotoEntrenador fotoJugador3 fotoJugador4 " "fotoEntrenador fotoJugador5 fotoJugador5 ";
+  color: white; }
+
+.equipo__fotoJugador {
+  display: flex;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  align-content: center;
+  width: 150px;
+  height: 150px;
+  margin: 3%; }
+
+.contacto {
+  position: sticky;
+  padding: 100px;
+  color: white;
+  text-align: center;
+  font-size: 20px; }
+
+.contacto__texto {
+  text-align: center;
+  color: white;
+  font-size: 25px; }
+
+.trofeos {
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 30px; }
+
+.trofeos__itemTrofeo {
+  display: flex;
+  list-style-type: none;
+  font-size: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: ridge;
+  border-color: #17a5ab; }
+
+.informacion {
+  background-color: black; }
+
+.informacion__subtitulo {
+  padding: 50px;
+  color: aqua;
+  text-align: center;
+  font-size: 60px; }
+
+.informacion__texto {
+  text-align: center;
+  align-items: center;
+  padding: 200px; }
+
+.informacion--textofondo {
+  background-color: #17a5ab; }
+
+.novedades {
+  padding: 200px;
+  background-color: black; }
+
+.novedades__titulo {
+  font-size: 70px; }
+
+.novedades__texto {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-style: normal; }
+
+.novedades--fondoCeleste {
+  background-color: #17a5ab; }
+
+.requisitos {
+  text-align: center;
+  align-items: center; }
+
+.requisitos__tituloRequisitos {
+  padding: 50px;
+  color: white;
+  text-align: center;
+  font-size: 40px; }
+
+.requisitos__texto {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-style: normal; }
+
+.requisitos--fondoNegro {
+  background-color: black; }
